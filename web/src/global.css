@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+#login h2, #area-form h2{
+    font: normal 30px 'Bitter', serif;
+    background: #007539;
+    color: #fff;
+    padding: 20px 30px 15px 30px;
+    /*redimencionar sobrepondo o padding do area-form*/
+    margin: -30px -30px 30px -30px;
+    border: 1px solid #007539;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+#login input, #area-form input:not(.foto){
+    display: block;
+	box-sizing: border-box;
+    border: 2px solid #fff;
+    width: 100%;
+	padding: 8px;
+    border-radius: 6px;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+#bt_logar, #bt_Cadastrar{
+    background: #007539;
+	padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font: normal 30px 'Bitter', serif;
+	border: 1px solid #007539;
+    font-size: 15px;
+    cursor: pointer;
+}
+#bt_logar:hover, #bt_Cadastrar:hover{
+    background: #2A6881;
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+.msg{
+	padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+	text-align: center;
+	color:red;
+	background-color: rgba(206, 18, 18, 0.13);
+}
